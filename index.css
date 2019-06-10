@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+.outer {
+  overflow: hidden;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#inner {
+  width: 3000px;
+  position: absolute;
+  height: 300px;
+  left: 0;
+  top: 0;
+  transition: left 1s;
+}
+
+.controlLeft {
+  cursor: pointer;
+  color: gray;
+  position: absolute;
+  font-size: 30px;
+  top: 135px;
+  left: 0;
+  transition: all 0.5s;
+}
+.controlLeft:hover {
+  color: black;
+}
+
+.controlRight {
+  cursor: pointer;
+  color: gray;
+  position: absolute;
+  font-size: 30px;
+  top: 135px;
+  right: 0;
+  transition: all 0.5s;
+}
+.controlRight:hover {
+  color: black;
+}
